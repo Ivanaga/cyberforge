@@ -1,0 +1,97 @@
+# =========================
+# IDE / Editors
+# =========================
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+
+# =========================
+# Java / Spring Boot / Maven
+# =========================
+target/
+build/
+.gradle/
+*.class
+*.jar
+*.war
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.tfvars
+*.tfvars.json
+
+secrets/
+credentials/
+
+# =========================
+# Docker / Runtime
+# =========================
+docker-data/
+volumes/
+runtime/
+*.pid
+
+# =========================
+# PostgreSQL
+# =========================
+pgdata/
+postgres-data/
+*.sql.dump
+*.backup
+
+# =========================
+# Terraform
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# =========================
+# Logs / Security Artifacts
+# =========================
+*.log
+logs/
+artifacts/
+captures/
+*.pcap
+*.pcapng
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
